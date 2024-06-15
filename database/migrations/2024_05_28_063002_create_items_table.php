@@ -16,14 +16,10 @@ return new class extends Migration
             $table->string('name');
             $table->string('description');
             $table->string('price');
-            $table->string('round_desc');
-            $table->string('caliber');
-            $table->string('mass');
-            $table->string('explosive_type');
-            $table->string('explosive_mass');
-            $table->string('tnt');
-            $table->string('fuze');
-            $table->string('pen');
+            $table->string('category')->nullable();
+            $table->string('brand')->nullable();
+            $table->decimal('weight', 8, 2)->nullable();
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

@@ -146,23 +146,23 @@ class PaymentController extends Controller
 
         $products = [
             [
-                'name' => 'BR-471',
+                'name' => 'Laptop',
                 'price_data' => [
                     'currency' => 'eur',
-                    'unit_amount' => 15000,
+                    'unit_amount' => 150000,
                     'product_data' => [
-                        'name' => 'Soviet APHE round mostly used in the IS-3 heavy tank.',
+                        'name' => 'Laptop',
                     ],
                 ],
                 'quantity' => $id_1_quantity,
             ],
             [
-                'name' => '3BK12M',
+                'name' => 'Smart TV',
                 'price_data' => [
                     'currency' => 'eur',
-                    'unit_amount' => 80000,
+                    'unit_amount' => 130000,
                     'product_data' => [
-                        'name' => 'Soviet HEATFS round mostly used in the T-72 main battle tank.',
+                        'name' => 'Smart TV',
                     ],
                 ],
                 'quantity' => $id_2_quantity,
